@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.carousel .slide .legend {
+  transform: translateY(60%);
+  background-color: transparent;
+}
+
+.search {
+  display: none;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto !important;
+}
+
+.see-more-ins {
+  display: none;
+}
+.legend-details {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.footer {
+  width: 100%;
+  text-align: left;
+  color: white;
+  background-color: #000;
+  bottom: 0;
+  padding: 50px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.login-page {
+  display: flex;
+  background-color: white;
+  color: black;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.login-paper {
+  width: 90%;
+  margin: 20% 0;
+  height: "auto";
+}
+.carousel-image {
+  max-height: 600px;
+}
+.courses-background {
+  background-color: #fbbc05;
+}
+.profile,
+.playlist {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/summit-45861.appspot.com/o/01_02.png?alt=media&token=abfc6093-5b30-4546-9969-dcc60a2c1f66");
+  background-position: "contain";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+}
+.footer-logo {
+  width: 30%;
+}
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    width: 50%;
+  }
+  .see-more-ins {
+    display: inline;
+  }
+  .search {
+    display: inline;
+  }
+  .carousel .slide .legend {
+    position: absolute;
+    transform: translateY(10%);
+    background-color: transparent;
+    top: 4%;
+    left: 50%;
+    margin-left: -45%;
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    transition: none;
+    opacity: 1;
+    z-index: 1;
+  }
+  .hero-content-heading {
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.33;
+  }
+  .hero-content-tagline {
+    margin-bottom: 26px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.42;
+    opacity: 0.5;
+  }
+  .browse-classes {
+    display: none;
+  }
+  .summit-overview {
+    padding: 40px 0;
+  }
+  .legend-details {
+    display: inline-block;
+  }
+  .login-page {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .login-paper {
+    width: 50%;
+    margin: 10% 0;
+    height: "auto";
+  }
+  .archive {
+    display: flex;
+    flex: 1;
+    min-height: 600px;
+    max-height: 100%;
+  }
+  .expansion-panel {
+    width: 80%;
+  }
+  .carousel-image {
+    max-height: 600;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #292f33;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: teal;
+}
